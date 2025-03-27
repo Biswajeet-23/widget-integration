@@ -1,0 +1,118 @@
+/* General Styles */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.btn {
+  background: #0044cc;
+  color: #fff;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+header {
+  background: #002244;
+  padding: 15px 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: white;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.nav-links a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  background: #f4f4f4;
+}
+
+.hero .text {
+  width: 50%;
+}
+
+.hero img {
+  width: 100%;
+  max-width: 400px;
+}
+
+/* Features Section */
+.features {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px;
+}
+
+.feature {
+  text-align: center;
+}
+
+.feature img {
+  width: 100%;
+  max-width: 300px;
+  border-radius: 10px;
+}
+
+/* Pricing Section */
+.pricing {
+  background: #e8f0ff;
+  padding: 50px;
+  text-align: center;
+}
+
+.plans {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+.plan {
+  background: white;
+  padding: 20px;
+  border-radius: 10px;
+  width: 250px;
+}
+
+/* Testimonials */
+.testimonials {
+  text-align: center;
+  padding: 50px;
+}
+
+.testimonial {
+  background: #ddd;
+  padding: 20px;
+  border-radius: 10px;
+  margin: 10px;
+}
+
+/* Footer */
+footer {
+  background: #002244;
+  color: white;
+  text-align: center;
+  padding: 30px;
+}
+
+.footer-links a {
+  color: white;
+  text-decoration: none;
+}
