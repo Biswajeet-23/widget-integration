@@ -110,9 +110,20 @@
         </div>
     </footer>
 
-    <script
+    <!--<script
         src="https://3438-106-51-221-143.ngrok-free.app/widget/script?API_KEY=35e3a272-5589-457c-85dc-6bc6464e2e2d&position=topRight" defer async crossorigin="anonymous"
-  ></script>
+  ></script>-->
+    <script>
+        function loadWidget() {
+            const script = document.createElement('script');
+            script.src = `https://3438-106-51-221-143.ngrok-free.app/widget/script?API_KEY=35e3a272-5589-457c-85dc-6bc6464e2e2d&position=topRight`;
+            script.crossOrigin = 'anonymous';
+            script.onload = () => console.log('Widget loaded');
+            script.onerror = (e) => console.error('Widget failed', e);
+            document.body.appendChild(script);
+        }
+        loadWidget();
+    </script>
 </body>
 
 </html>
